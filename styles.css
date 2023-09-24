@@ -43,7 +43,47 @@ a {
 
 .content-container {
     display: flex;
+    flex-direction: column;
     flex: 1;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
+
+.first-left {
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.first-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.first-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.first-right {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: flex-start;
+}
+
+.first-image {
+    height: 100%;
+    width: 100%;
 }
 
 footer {
